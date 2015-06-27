@@ -1,0 +1,10 @@
+[Unit]
+Description=Teleinformation daemon
+
+# Do not use "DAEMON=True" with this systemd service !
+
+[Service]
+ExecStart=/usr/local/bin/teleinfod.py
+
+[Install]
+WantedBy=multi-user.target
