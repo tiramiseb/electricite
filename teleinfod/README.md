@@ -10,13 +10,14 @@ To pseudo-manually install on a system using systemd, use the
 Configuration
 -------------
 
-The default configuration file is /usr/local/etc/teleinfod.conf.
+The default configuration file is `/usr/local/etc/teleinfod.conf`.
+
 All parameters are mandatory.
 
 MySQL tables
 ------------
 
-When the "mysql" output is activated, data is stored in two MySQL table.
+When the "mysql" output is activated, data is stored in two MySQL tables.
 
 Create the DB and a user:
 
